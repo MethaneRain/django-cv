@@ -1,4 +1,4 @@
-django-admin startproject ________
+```django-admin startproject ________```
 
 ```python manage.py runserver```
 There will be warnings, just ignore those for now. There should be a local web address given to show the django project.
@@ -13,3 +13,9 @@ access http://127.0.0.1:8000/ in web browser to see if the Django project has be
 This syncs the settings from the django project to the django apps. 
 
 This will also update or create the database if it doesn't exist. In seetings.py, check out the DATABASES dictionary and change the name to understand more.
+
+---
+
+Creating the first app
+
+```python manage.py createapp _____```
