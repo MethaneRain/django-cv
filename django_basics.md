@@ -32,3 +32,18 @@ Creating the first app
 
 Open models.py
 
+Anytime you modify models.py you <em>must</em> run makemigrations and migrate!
+
+```python manage.py makemigrations```
+
+```python manage.py migrate```
+
+I've put these into a shell script that can be run after every update to the models.py file.
+
+admin.py
+add relative import of the new app (Project in models.py)
+```from .models import Project```
+
+```admin.site.register(Project)```
+
+Everything has now been saved to the database
