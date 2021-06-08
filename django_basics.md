@@ -27,4 +27,8 @@ http://127.0.0.1:8000/admin/
 
 Creating the first app
 
-```python manage.py createapp _____```
+```python manage.py startapp _____```
+
+
+Open models.py
+
