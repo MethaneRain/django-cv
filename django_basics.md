@@ -14,6 +14,15 @@ This syncs the settings from the django project to the django apps.
 
 This will also update or create the database if it doesn't exist. In seetings.py, check out the DATABASES dictionary and change the name to understand more.
 
+
+Check admin
+
+Create superuser
+
+```python manage.py createsuperuser```
+
+Update admin
+http://127.0.0.1:8000/admin/
 ---
 
 Creating the first app
